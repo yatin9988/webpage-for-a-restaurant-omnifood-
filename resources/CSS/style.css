@@ -44,7 +44,7 @@ h2::after{
 
 h3{
     color: #555;
-    font-size: 110%;
+    font-size: 111%;
     letter-spacing: 0;
     margin-bottom: 15px;
 }
@@ -77,7 +77,7 @@ section{
 .icon{
     width: 40%;
     display: block;
-    margin-bottom: 15px;;
+    margin-bottom: 15px;
     margin: auto;
 }
 
@@ -171,21 +171,20 @@ header{
     list-style: none;
 }
 
-.section-features .long-copy{
+.section-features
+.long-copy{
     padding-bottom: 30px;
 }
+
 
 .clearfix{
     zoom:1;
 }
 
-.clearfix::after{
-    content: '.';
+.section-steps{
     clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
 }
+
 
 .meals-showcase li{
     display: block;
@@ -256,6 +255,76 @@ header{
     margin-right: 10px;
 }
 
+.box > img{
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.city-feature{
+    margin-bottom: 5px;
+/*    float: left;*/
+}
+
+.box > h3{
+    text-align: center;
+}
+
+.icon-small{
+/*    float: left;*/
+}
+
+.righty{
+/*    display: inline-block;*/
+/*    float: right;*/
+}
+
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
 
 
+.section-testimonials{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/back-customers.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    background-position: center center;
+}
 
+.section-testimonials h2{
+    color: #fff;
+}
+
+blockquote{
+    line-height: 145%;
+    font-style: italic;
+    padding: 2%;
+    margin-top: 25px;
+    position: relative;
+}
+
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+blockquote::before{
+    content: '\201C';
+    display: block;
+    font-size: 500%;
+    text-align: left;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+}
+
+cite img{
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
